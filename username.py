@@ -1,5 +1,5 @@
 #author : Sayyed Viquar ahmed 
-#from urllib.request import urlopner
+
 import requests
 import urllib
 
@@ -15,11 +15,20 @@ def instagram(username):
 
 def pinrest(username):
     try:
-        url:"http://pinrest.com/"+username
+        url="http://pinrest.com/"+username
         print("Username found in Pinrest platform")
         return("Username Found")
     except Exception as e:
         print("cant find the username")
+
+def facebook(username):
+    try:
+        url="http://facebook.com/"+username
+        print("Username found in Pinrest platform")
+        return("Username Found")
+    except Exception as e:
+        print("cant find the username")
+    
 
 
 
