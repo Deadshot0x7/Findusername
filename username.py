@@ -24,7 +24,7 @@ def pinrest(username):
 def facebook(username):
     try:
         url="http://facebook.com/"+username
-        print("Username found in Pinrest platform")
+        print("Username found in Facebook platform")
         
     except Exception as e:
         print("cant find the username")
