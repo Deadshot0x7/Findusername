@@ -11,6 +11,7 @@ def instagram(username):
         
     except Exception  as e :
             print("Can't find the Username ")
+    return True 
             
 
 def pinrest(username):
@@ -20,7 +21,7 @@ def pinrest(username):
         
     except Exception as e:
         print("cant find the username")
-
+    return True
 def facebook(username):
     try:
         url="http://facebook.com/"+username
@@ -28,6 +29,7 @@ def facebook(username):
         
     except Exception as e:
         print("cant find the username")
+    return True
     
 
 
